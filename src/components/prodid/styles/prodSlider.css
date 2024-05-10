@@ -1,0 +1,18 @@
+.splide {
+    min-width: 300px;
+    max-width: 500px;
+    height: 350px;
+}
+.splide__slide {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.splide__arrow svg {
+    fill:#F85555
+}
+
+.splide__pagination__page.is-active {
+    background: #F85555;
+}

@@ -1,0 +1,43 @@
+.homepage__container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+.homepage__filtername {
+    display: flex;
+}
+.homepage__filtername input {
+    border: 1px solid;
+    border-color:#DCD9D9 ;
+
+}
+.homepage__filtername button {
+    background-color:#F85555 ;
+    border: #F85555;
+    color: #FFFFFF;
+}
+
+.homepage__btn {
+    background-color:#F85555 ;
+    border: #F85555;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.homepage__btn::before {
+    content: 'Dark';
+}
+.dark .homepage__btn::before {
+    content: 'Ligth';
+}
+.homepage__filters {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
